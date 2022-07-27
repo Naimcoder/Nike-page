@@ -2,24 +2,20 @@
      background: #FFF9F4;
      padding: 100px 0px;
 }
-.navbar{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-}
-.navbar .nav-item{
-    margin-right: 30px;
-   
-}
 .banner-title{
         font-size: 70px;
         font-weight: 700;
         line-height: 80px;
-         text-transform: uppercase;
+        text-transform: uppercase;
 }
 .banner-title span{
 color: orange;
+}
+img{
+    max-width: 100%;
+}
+.body{
+    background-color: #E6E6E6;
 }
 @media only screen and (max-width:576px) {
     .navbar-brand{
@@ -30,14 +26,21 @@ color: orange;
         width: 100%;
 
     }
- .banner-main{
-     display: flex;
-     flex-direction: column-reverse;
- }
  .banner-title {
      font-size: 35px;
      font-weight: 700;
      line-height: 40px;
      text-transform: uppercase;
+ }
+ .gift-box {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .gift-img{
+    text-align: center;
+ }
+ .gift-text{
+    text-align: center;
  }
 }
